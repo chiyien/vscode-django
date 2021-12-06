@@ -1,0 +1,16 @@
+1. 重置git
+    git init 
+
+2. 本地git连接远程库
+    git clone 指定库地址
+
+3. 设置http，https代理
+    git config --global http.proxy '代理地址'
+    git config --global https.proxy '代理地址'
+
+4. 查看代理
+    git config -l
+
+5. 取消http，https代理
+    git config --global --unset http.proxy
+    git config --global --unset https.proxy
