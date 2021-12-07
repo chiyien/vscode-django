@@ -1,1 +1,29 @@
-测试更改
+1. color颜色属性
+2. 字体属性：font
+    font：简写
+    font-size：字体大小
+    font-family：字体：Arial(宋体)；可以指定多个字体，由浏览器选择使用哪个字体展示
+    font-weight：字体加粗：bold
+3. 文本属性
+    见文档
+
+4. 背景属性：background
+    background-image：背景图片
+    background-color：背景颜色
+    background-repeat：是否重复，如何重复（平铺）
+    background-position：定位
+
+5. 边框：border
+    
+6. 内补白：padding
+7. 外补白：margin
+8. 定位：position
+9. 布局：Layout
+10. 弹性盒子
+11. 用户界面
+12. 多栏
+13. 表格相关属性
+14. 过度：transition
+15.动画：Animation
+16. 2D变换
+17. 媒体查询属性
