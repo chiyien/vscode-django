@@ -1,9 +1,31 @@
 1. 传统的DIV+CSS布局
-    
 
 
-2. HTML5语义化标签+CSS布局
+
+2. HTML5语义化标签+CSS布局（提高搜索优化）
+    <header> 定义页面或区段的头部（页眉）
+    <footer> 定义页面或区段的尾部（页脚）
+    <nav> 定义页面或区段的导航区域（导航）
+    <section> 页面的逻辑区域或内容组合（区块）
+    <article> 定义正文或一篇完整的内容（文章）
+    <aside> 定义补充或相关内容（侧边栏）
 
 
 
 3. 响应式布局
+    第一种：直接在页头中使用CSS样式修饰
+    <style type="text/css">
+        /* 宽度范围 最高度*/
+        @media all and(min-width:300px) and (max-width:800px){
+            body{
+                color:red;
+            }
+        }
+        @media all and (min-width:100px) and (max-width:300px){
+            body{
+                color:green;
+            }
+        }
+    <style>
+
+
