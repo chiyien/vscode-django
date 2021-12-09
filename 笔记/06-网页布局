@@ -28,4 +28,10 @@
         }
     <style>
 
+    第二种：导入不同的CSS样式文件
+    <link media="all and(min-width:300px) and (max-width:800px)"
+        rel="stylesheet" href="my.css" />
+    
+    <link media="all and(min-width:100px) and (max-width:300px)"
+        rel="stylesheet" href="text.css" />
 
