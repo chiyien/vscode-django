@@ -1,1 +1,4 @@
 
+1. 初始化设置创建myweb项目
+ django-admin startproject myweb
+ 
