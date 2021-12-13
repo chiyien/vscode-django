@@ -1,1 +1,20 @@
-
+1. 通过命令创建一个django项目
+  django-admin startproject myweb
+  startproject创建的内容
+  .
+  |-- manage.py
+  |-- myweb
+        |-- __init_.py
+        |-- settings.py
+        |-- urls.py
+        |-- wsgi.py
+        
+  ·外部myweb/根目录只是一个项目容器，他的名字与Django无关，可以自由定义
+  ·manage.py：一个命令行实用程序，可以通过各种方式与此Django项目进行交互。可以阅读所有的细节manage.py在Django的管理和manage.py
+  ·内部myweb/目录是项目的实际python包。
+  ·myweb。settings.py：此Django项目的设置/配置。
+  ·myweb/urls.py：该Django项目的URL声明，django网站的“目录”。
+  ·myweb/wsgi.py：WSGI兼容的web服务器为项目提供服务的入口点。
+  
+ 
+ 2.
