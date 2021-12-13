@@ -16,5 +16,11 @@
   ·myweb/urls.py：该Django项目的URL声明，django网站的“目录”。
   ·myweb/wsgi.py：WSGI兼容的web服务器为项目提供服务的入口点。
   
- 
- 2.
+ 2. 启动服务
+  ·只支持本地访问：
+   python manage.py runserver 端口号
+   python manage.py runserver 8080
+   
+  ·支持远程访问：
+   python manage.py runserver 0.0.0.0:端口号
+   python manage.py runserver 0.0.0.0:8080
